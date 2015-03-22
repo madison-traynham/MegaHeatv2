@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : MEGAHEATV2.brd                                )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Fri Mar 20 21:28:35 2015                      )
+(    Date/Time        : Sun Mar 22 01:08:29 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,7 +28,7 @@ CmdLine: netrev.exe -y 1 -n -i C:\USERS\MADISON\DESKTOP\MEGAHEATV2\allegro C:\US
 Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstchip.dat 
    Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstchip.dat (00:00:00.04)
 Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstxprt.dat 
-   Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstxprt.dat (00:00:00.00)
+   Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstxprt.dat (00:00:00.01)
 Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstxnet.dat 
    Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/pstxnet.dat (00:00:00.00)
 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 20 21:28:35 2015
+netrev run on Mar 22 1:08:29 2015
    DESIGN NAME : 'MEGAHEATV2'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -84,6 +84,6 @@ netrev run on Mar 20 21:28:35 2015
  No oversight detected
  No warning detected
 
-cpu time      0:01:04
+cpu time      0:00:51
 elapsed time  0:00:00
 

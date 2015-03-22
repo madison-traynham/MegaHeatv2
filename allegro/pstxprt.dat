@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Mar-20-2015 at 21:28:33 }
+{ Using PSTWRITER 16.6.0 d001Mar-22-2015 at 01:08:28 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='MEGAHEATV2';
@@ -398,6 +398,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ D14 'LED_0805RF_WV_12D_LED':;
+
+SECTION_NUMBER 1
+ '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS197673@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@megaheatv2.\schematic 1\(sch_1):ins197673@discrete.\led.normal\(chips)',
+ P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins197673@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  D4 'DIODE_0805RF_WV_12D_CD1206-S015':;
 
 SECTION_NUMBER 1
@@ -484,6 +494,16 @@ SECTION_NUMBER 1
  '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS173766@CONNECTOR.HEADER 4.NORMAL(CHIPS)':
  C_PATH='@megaheatv2.\schematic 1\(sch_1):ins173766@connector.\header 4.normal\(chips)',
  P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins173766@connector.\header 4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER 5_5X1CONN_COMPRESSOR CON':;
+
+SECTION_NUMBER 1
+ '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS196891@CONNECTOR.HEADER 5.NORMAL(CHIPS)':
+ C_PATH='@megaheatv2.\schematic 1\(sch_1):ins196891@connector.\header 5.normal\(chips)',
+ P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins196891@connector.\header 5.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -848,6 +868,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R40 'R_0805RF_WV_12D_1K':;
+
+SECTION_NUMBER 1
+ '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS198017@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@megaheatv2.\schematic 1\(sch_1):ins198017@discrete.\r.normal\(chips)',
+ P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins198017@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R5 'R_0805RF_WV_12D_2.2K':;
 
 SECTION_NUMBER 1
@@ -1054,6 +1084,16 @@ SECTION_NUMBER 1
  '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS94425@CREATED.DS1307.NORMAL(CHIPS)':
  C_PATH='@megaheatv2.\schematic 1\(sch_1):ins94425@created.\ds1307.normal\(chips)',
  P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins94425@created.\ds1307.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U20 'MCP4131_SOIC8_MCP4131':;
+
+SECTION_NUMBER 1
+ '@MEGAHEATV2.SCHEMATIC 1(SCH_1):INS196364@LIBRARY1.MCP4131.NORMAL(CHIPS)':
+ C_PATH='@megaheatv2.\schematic 1\(sch_1):ins196364@library1.\mcp4131.normal\(chips)',
+ P_PATH='@megaheatv2.\schematic 1\(sch_1):page1_ins196364@library1.\mcp4131.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

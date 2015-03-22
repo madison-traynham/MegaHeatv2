@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : megaHeatv2.brd                                )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Fri Mar 20 21:28:46 2015                      )
+(    Date/Time        : Sun Mar 22 01:08:46 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -21,14 +21,14 @@ BOARD_DIRECTORY '';
 OLD_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd';
 NEW_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd';
 
-CmdLine: netrev -$ -i C:/Users/Madison/Desktop/MegaHeatv2/allegro -y 1 C:/Users/Madison/Desktop/MegaHeatv2/#Taaaaab08980.tmp
+CmdLine: netrev -$ -i C:/Users/Madison/Desktop/MegaHeatv2/allegro -y 1 C:/Users/Madison/Desktop/MegaHeatv2/#Taaaaae07684.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstchip.dat 
    Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstchip.dat (00:00:00.04)
 Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxprt.dat 
-   Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxprt.dat (00:00:00.00)
+   Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxprt.dat (00:00:00.01)
 Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxnet.dat 
    Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxnet.dat (00:00:00.00)
 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 20 21:28:46 2015
+netrev run on Mar 22 1:08:46 2015
    DESIGN NAME : 'MEGAHEATV2'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -84,6 +84,6 @@ netrev run on Mar 20 21:28:46 2015
  No oversight detected
  No warning detected
 
-cpu time      0:01:13
+cpu time      0:00:41
 elapsed time  0:00:00
 

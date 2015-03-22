@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-20-2015 at 11:40:46}
+{ Using PSTWRITER 16.6.0 d001Mar-22-2015 at 01:08:08}
 primitive 'CR1220HOLDER_CR1220_CR1220HOLDE';
   pin
     'PW1':
@@ -75,21 +75,6 @@ primitive 'CAPACITOR NON-POL_0805RF_WV_1_3';
   body
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='0805rf_wv_12d';
-    VALUE='0.1u';
-  end_body;
-end_primitive;
-primitive 'CAPACITOR NON-POL_0805RF_WV_1_4';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='0805rf_wv_12d';
     VALUE='100n';
   end_body;
 end_primitive;
@@ -106,6 +91,21 @@ primitive 'C_0805RF_WV_12D_10U';
     PART_NAME='C';
     JEDEC_TYPE='0805rf_wv_12d';
     VALUE='10u';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_0805RF_WV_1_4';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='0805rf_wv_12d';
+    VALUE='0.1u';
   end_body;
 end_primitive;
 primitive 'C_0805RF_WV_12D_47U';
@@ -213,6 +213,24 @@ primitive 'USD_MICROSD_USD';
     VALUE='uSD';
   end_body;
 end_primitive;
+primitive 'CONN PLUG 3_DC_JACK_DC21MMX_POW';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN PLUG 3';
+    JEDEC_TYPE='dc_jack';
+    VALUE='DC21MMX_POWERSUPPLY';
+  end_body;
+end_primitive;
 primitive 'USB_B MINI_USBBMINI_USB_B MINI';
   pin
     'VCC':
@@ -255,24 +273,6 @@ primitive 'USB_B MINI_USBBMINI_USB_B MINI';
     VALUE='USB_B MINI';
   end_body;
 end_primitive;
-primitive 'CONN PLUG 3_DC_JACK_DC21MMX_POW';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CONN PLUG 3';
-    JEDEC_TYPE='dc_jack';
-    VALUE='DC21MMX_POWERSUPPLY';
-  end_body;
-end_primitive;
 primitive 'LED_0805RF_WV_12D_RED';
   pin
     'ANODE':
@@ -303,7 +303,7 @@ primitive 'DIODE_0805RF_WV_12D_CD1206-S015';
     VALUE='CD1206-S01575';
   end_body;
 end_primitive;
-primitive 'LED_0805RF_WV_12D_GREEN';
+primitive 'LED_0805RF_WV_12D_LED';
   pin
     'ANODE':
       PIN_NUMBER='(2)';
@@ -315,7 +315,7 @@ primitive 'LED_0805RF_WV_12D_GREEN';
   body
     PART_NAME='LED';
     JEDEC_TYPE='0805rf_wv_12d';
-    VALUE='GREEN';
+    VALUE='LED';
   end_body;
 end_primitive;
 primitive 'DIODE_DO21_M7';
@@ -361,21 +361,6 @@ primitive 'LED_0805RF_WV_12D_YELLOW';
     PART_NAME='LED';
     JEDEC_TYPE='0805rf_wv_12d';
     VALUE='YELLOW';
-  end_body;
-end_primitive;
-primitive 'FUSE_1206RF_WV_12D_MF-MSMF050-2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='FUSE';
-    JEDEC_TYPE='1206rf_wv_12d';
-    VALUE='MF-MSMF050-2 500mA';
   end_body;
 end_primitive;
 primitive 'FUSE_FUSE_MF-MSMF050-2 500MA';
@@ -441,37 +426,7 @@ primitive 'HEADER 4_4X1CONN_COMM HEADER';
     VALUE='COMM Header';
   end_body;
 end_primitive;
-primitive 'CON2_2X1CONN_CON2';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='2x1conn';
-    VALUE='CON2';
-  end_body;
-end_primitive;
-primitive 'JUMPER_1210RF_WV_12D_TX-EN';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='JUMPER';
-    JEDEC_TYPE='1210rf_wv_12d';
-    VALUE='TX-EN';
-  end_body;
-end_primitive;
-primitive 'HEADER 6_ICSP_STRAIGHT_ICSP-PTH';
+primitive 'HEADER 5_5X1CONN_COMPRESSOR CON';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -488,14 +443,26 @@ primitive 'HEADER 6_ICSP_STRAIGHT_ICSP-PTH';
     '5':
       PIN_NUMBER='(5)';
       PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
+  end_pin;
+  body
+    PART_NAME='HEADER 5';
+    JEDEC_TYPE='5x1conn';
+    VALUE='Compressor Control';
+  end_body;
+end_primitive;
+primitive 'CON2_2X1CONN_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='HEADER 6';
-    JEDEC_TYPE='icsp_straight';
-    VALUE='ICSP-PTH';
+    PART_NAME='CON2';
+    JEDEC_TYPE='2x1conn';
+    VALUE='CON2';
   end_body;
 end_primitive;
 primitive 'HEADER 2X2/SM_2X2CON_HEADER 2X2';
@@ -612,7 +579,7 @@ primitive 'R_0805RF_WV_12D_10K';
     VALUE='10K';
   end_body;
 end_primitive;
-primitive 'R_0805RF_WV_12D_330';
+primitive 'R_0805RF_WV_12D_1M';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -624,7 +591,7 @@ primitive 'R_0805RF_WV_12D_330';
   body
     PART_NAME='R';
     JEDEC_TYPE='0805rf_wv_12d';
-    VALUE='330';
+    VALUE='1M';
   end_body;
 end_primitive;
 primitive 'R_0805RF_WV_12D_1K';
@@ -642,36 +609,6 @@ primitive 'R_0805RF_WV_12D_1K';
     VALUE='1k';
   end_body;
 end_primitive;
-primitive 'R_0805RF_WV_12D_750';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0805rf_wv_12d';
-    VALUE='750';
-  end_body;
-end_primitive;
-primitive 'R_0805RF_WV_12D_1M';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='0805rf_wv_12d';
-    VALUE='1M';
-  end_body;
-end_primitive;
 primitive 'R_0805RF_WV_12D_22R';
   pin
     '1':
@@ -685,6 +622,21 @@ primitive 'R_0805RF_WV_12D_22R';
     PART_NAME='R';
     JEDEC_TYPE='0805rf_wv_12d';
     VALUE='22R';
+  end_body;
+end_primitive;
+primitive 'R_0805RF_WV_12D_750';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='0805rf_wv_12d';
+    VALUE='750';
   end_body;
 end_primitive;
 primitive 'R_0805RF_WV_12D_2.2K';
@@ -1086,201 +1038,6 @@ primitive 'MIC5225-3.3YM5_DBV0005A_M_ MIC';
     VALUE=' MIC5225-3.3YM5';
   end_body;
 end_primitive;
-primitive 'FT232RL_RS232RL_FOOTPRINT_FT232';
-  pin
-    'USBDM':
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'DSBDP':
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-    'VCC':
-      PIN_NUMBER='(20)';
-      PINUSE='UNSPEC';
-    '3V3OUT':
-      PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
-    'VCCIO':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'TEST':
-      PIN_NUMBER='(26)';
-      PINUSE='UNSPEC';
-    'AGND':
-      PIN_NUMBER='(25)';
-      PINUSE='UNSPEC';
-    'GND1':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'GND2':
-      PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
-    'GND3':
-      PIN_NUMBER='(21)';
-      PINUSE='UNSPEC';
-    'RXLED':
-      PIN_NUMBER='(22)';
-      PINUSE='UNSPEC';
-    'TXLED':
-      PIN_NUMBER='(23)';
-      PINUSE='UNSPEC';
-    'DTR':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'RTS':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'CTS':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'RXD':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'TXD':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='FT232RL';
-    JEDEC_TYPE='RS232RL_footprint';
-    VALUE='FT232RL';
-  end_body;
-end_primitive;
-primitive 'RMCM01_RMCM01_RMCM01';
-  pin
-    'VCC':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'OSC_ON':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'F32KIN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'OSC':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'HR':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'FPLS':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'RESET':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'WIDB_DET':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'LX2':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'LX1':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RMCM01';
-    JEDEC_TYPE='rmcm01';
-    VALUE='RMCM01';
-  end_body;
-end_primitive;
-primitive 'PIC16F913_SOIC28_PIC16F913';
-  pin
-    'RE3':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'RA0':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'RA1':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'RA2':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'RA3':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'RA4':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'RA5':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'VSS':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'RA7':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'RA6':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'RC0':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'RC1':
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    'RC2':
-      PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
-    'RC3':
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
-    'RC4':
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-    'RC5':
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'RC6':
-      PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
-    'RC7':
-      PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
-    'VSS1':
-      PIN_NUMBER='(19)';
-      PINUSE='UNSPEC';
-    'VDD':
-      PIN_NUMBER='(20)';
-      PINUSE='UNSPEC';
-    'RB0':
-      PIN_NUMBER='(21)';
-      PINUSE='UNSPEC';
-    'RB1':
-      PIN_NUMBER='(22)';
-      PINUSE='UNSPEC';
-    'RB2':
-      PIN_NUMBER='(23)';
-      PINUSE='UNSPEC';
-    'RB3':
-      PIN_NUMBER='(24)';
-      PINUSE='UNSPEC';
-    'RB4':
-      PIN_NUMBER='(25)';
-      PINUSE='UNSPEC';
-    'RB5':
-      PIN_NUMBER='(26)';
-      PINUSE='UNSPEC';
-    'RB6':
-      PIN_NUMBER='(27)';
-      PINUSE='UNSPEC';
-    'RB7':
-      PIN_NUMBER='(28)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='PIC16F913';
-    JEDEC_TYPE='SOIC28';
-    VALUE='PIC16F913';
-  end_body;
-end_primitive;
 primitive 'ESP8266_0_ESP8266_MODULE_ESP826';
   pin
     'UTXD':
@@ -1581,6 +1338,39 @@ primitive 'DS1307_SOIC8_DS1307';
     VALUE='DS1307';
   end_body;
 end_primitive;
+primitive 'MCP4131_SOIC08_MCP4131';
+  pin
+    'CS':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'SCK':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SDI':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'VSS':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'P0A':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'P0W':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'P0B':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MCP4131';
+    JEDEC_TYPE='SOIC08';
+    VALUE='MCP4131';
+  end_body;
+end_primitive;
 primitive 'CD74HC4050M_0_SOIC16_CD74HC4050';
   pin
     'VCC':
@@ -1732,27 +1522,6 @@ primitive 'CRYSTAL_ECS3X8_32.768';
     PART_NAME='CRYSTAL';
     JEDEC_TYPE='ecs3x8';
     VALUE='32.768';
-  end_body;
-end_primitive;
-primitive 'XM/SM_0_MC-146_16MHZ';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='XM/SM_0';
-    JEDEC_TYPE='mc-146';
-    VALUE='16MHz';
   end_body;
 end_primitive;
 primitive 'XM/SM_ECX64A_16MHZ';

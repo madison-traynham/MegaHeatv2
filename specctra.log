@@ -1,0 +1,442 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Sun Mar 22 01:10:40 2015
+# 
+# Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+# Running on: madison-pc, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Users/Madison/Desktop/MegaHeatv2/specctra.did
+# Current time = Sun Mar 22 01:10:41 2015
+# PCB C:/Users/Madison/Desktop/MegaHeatv2
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-3022.8000 ylo=-1797.6000 xhi=3022.8000 yhi=1647.8000
+# Total 90 Images Consolidated.
+# Via VIA z=1, 2 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# Via VIA26 z=1, 2 xlo=-13.0000 ylo=-13.0000 xhi= 13.0000 yhi= 13.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 152, Vias Processed 152
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 122, Images Processed 153, Padstacks Processed 43
+# Nets Processed 152, Net Terminals 596
+# PCB Area=16466016.000  EIC=36  Area/EIC=457389.333  SMDs=104
+# Total Pin Count: 506
+# Signal Connections Created 292
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 292
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 107, at vias 107 Total Vias 152
+# Percent Connected    0.00
+# Manhattan Length 186683.6600 Horizontal 120369.1920 Vertical 66314.4680
+# Routed Length 8860.9250 Horizontal 4700.0000 Vertical 5930.0000
+# Ratio Actual / Manhattan   0.0475
+# Unconnected Length 185882.5800 Horizontal 113868.6300 Vertical 72013.9500
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/Madison/AppData/Local/Temp/#Taaaaaj07684.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+smart_route (auto_fanout on) (auto_fanout_via_share off) (auto_fanout_pin_share off) (auto_testpoint on (side Both) ) (auto_miter off)
+# Smart Route: Executing bus diagonal.
+# Diagonal wire corners are preferred.
+# Current time = Sun Mar 22 01:11:37 2015
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 292
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 107, at vias 107 Total Vias 152
+# Percent Connected    0.00
+# Manhattan Length 186683.6600 Horizontal 120369.1920 Vertical 66314.4680
+# Routed Length 8860.9250 Horizontal 4700.0000 Vertical 5930.0000
+# Ratio Actual / Manhattan   0.0475
+# Unconnected Length 185882.5800 Horizontal 113868.6300 Vertical 72013.9500
+# Attempts 3 Successes 1 Failures 2 Vias 152
+# 90 degree wire corners are preferred.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 291
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 107, at vias 107 Total Vias 152
+# Percent Connected    0.34
+# Manhattan Length 186683.6600 Horizontal 120369.1920 Vertical 66314.4680
+# Routed Length 9101.4250 Horizontal 4921.7500 Vertical 5948.7500
+# Ratio Actual / Manhattan   0.0488
+# Unconnected Length 185609.5800 Horizontal 113596.8800 Vertical 72012.7000
+# <<WARNING:>> Smart Route: 66.67 percent of bus attempts failed.
+# 90 degree wire corners are preferred.
+# Smart Route: Executing 25 route passes.
+# Current time = Sun Mar 22 01:11:37 2015
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 291
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 107, at vias 107 Total Vias 152
+# Percent Connected    0.34
+# Manhattan Length 186683.6600 Horizontal 120369.1920 Vertical 66314.4680
+# Routed Length 9101.4250 Horizontal 4921.7500 Vertical 5948.7500
+# Ratio Actual / Manhattan   0.0488
+# Unconnected Length 185609.5800 Horizontal 113596.8800 Vertical 72012.7000
+# Start Route Pass 1 of 25
+# Routing 443 wires.
+# Total Conflicts: 177 (Cross: 176, Clear: 1, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 1
+# Attempts 432 Successes 431 Failures 1 Vias 183
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Start Route Pass 2 of 25
+# Routing 665 wires.
+# Total Conflicts: 67 (Cross: 64, Clear: 3, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 428 Successes 427 Failures 1 Vias 143
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# Conflict Reduction  0.6215
+# End Pass 2 of 25
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Smart Route: Smart_route progressing normally after 2 passes.
+# Start Route Pass 3 of 25
+# Routing 603 wires.
+# Total Conflicts: 19 (Cross: 19, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 435 Successes 434 Failures 1 Vias 141
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Conflict Reduction  0.7164
+# End Pass 3 of 25
+# 44 bend points have been removed.
+# 0 bend points have been removed.
+# 13 bend points have been removed.
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Smart Route: Activating PCB testpoint rule.
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 174, at vias 68 Total Vias 141
+# Percent Connected   91.78
+# Manhattan Length 186351.7700 Horizontal 121113.2670 Vertical 65238.5030
+# Routed Length 197037.5585 Horizontal 120870.7600 Vertical 76190.2300
+# Ratio Actual / Manhattan   1.0573
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Attempts 85 Successes 85 Failures 0 Vias 186
+# 3 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 19 (Cross: 19, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 174, at vias 68 Total Vias 186
+# Percent Connected   91.44
+# Manhattan Length 186351.7700 Horizontal 121007.9040 Vertical 65343.8660
+# Routed Length 197052.6985 Horizontal 120861.9000 Vertical 76214.2300
+# Ratio Actual / Manhattan   1.0574
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route progressing normally after 3 passes.
+# Start Route Pass 4 of 25
+# Routing 50 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 47 Successes 47 Failures 0 Vias 209
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 25
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Smart Route: Smart_route progressing normally after 4 passes.
+# Start Route Pass 5 of 25
+# Routing 2 wires.
+# 7 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 207
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 5 of 25
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Smart Route: Smart_route progressing normally after 5 passes.
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:04
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   2|  291|  152|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|   176|     1|   1|    1|  183|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    64|     3|   1|    0|  143|    0|   0| 62|  0:00:01|  0:00:01|
+# Route    |  3|    19|     0|   1|    0|  141|    0|   0| 71|  0:00:00|  0:00:01|
+# Testpoint|  3|    19|     0|   0|    0|  186|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  4|     1|     0|   0|    0|  209|    0|   0| 94|  0:00:00|  0:00:01|
+# Route    |  5|     0|     0|   0|    0|  207|    0|   0|100|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 175, at vias 73 Total Vias 207
+# Percent Connected  100.00
+# Manhattan Length 187242.5600 Horizontal 121685.2190 Vertical 65557.3410
+# Routed Length 201575.4885 Horizontal 122585.4100 Vertical 79013.5100
+# Ratio Actual / Manhattan   1.0765
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Sun Mar 22 01:11:41 2015
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 175, at vias 73 Total Vias 207
+# Percent Connected  100.00
+# Manhattan Length 187242.5600 Horizontal 121685.2190 Vertical 65557.3410
+# Routed Length 201575.4885 Horizontal 122585.4100 Vertical 79013.5100
+# Ratio Actual / Manhattan   1.0765
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 601 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 445 Successes 445 Failures 0 Vias 180
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 627 wires.
+# 7 bend points have been removed.
+# 0 bend points have been removed.
+# 5 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 447 Successes 445 Failures 2 Vias 176
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   2|  291|  152|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|   176|     1|   1|    1|  183|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    64|     3|   1|    0|  143|    0|   0| 62|  0:00:01|  0:00:01|
+# Route    |  3|    19|     0|   1|    0|  141|    0|   0| 71|  0:00:00|  0:00:01|
+# Testpoint|  3|    19|     0|   0|    0|  186|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  4|     1|     0|   0|    0|  209|    0|   0| 94|  0:00:00|  0:00:01|
+# Route    |  5|     0|     0|   0|    0|  207|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|  180|    0|   0|   |  0:00:01|  0:00:02|
+# Clean    |  7|     0|     0|   2|    0|  176|    0|   0|   |  0:00:00|  0:00:02|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:02
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 172, at vias 59 Total Vias 176
+# Percent Connected  100.00
+# Manhattan Length 185223.1410 Horizontal 120184.8360 Vertical 65038.3050
+# Routed Length 196532.5085 Horizontal 119953.6000 Vertical 76602.3400
+# Ratio Actual / Manhattan   1.0611
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Sun Mar 22 01:11:42 2015
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 172, at vias 59 Total Vias 176
+# Percent Connected  100.00
+# Manhattan Length 185223.1410 Horizontal 120184.8360 Vertical 65038.3050
+# Routed Length 196532.5085 Horizontal 119953.6000 Vertical 76602.3400
+# Ratio Actual / Manhattan   1.0611
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 582 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 457 Successes 455 Failures 2 Vias 178
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 600 wires.
+# 4 bend points have been removed.
+# 0 bend points have been removed.
+# 6 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 461 Successes 461 Failures 0 Vias 177
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/Madison/Desktop/MegaHeatv2\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 6.0000, Clearance= 6.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   2|  291|  152|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|   176|     1|   1|    1|  183|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|    64|     3|   1|    0|  143|    0|   0| 62|  0:00:01|  0:00:01|
+# Route    |  3|    19|     0|   1|    0|  141|    0|   0| 71|  0:00:00|  0:00:01|
+# Testpoint|  3|    19|     0|   0|    0|  186|    0|   0|   |  0:00:00|  0:00:01|
+# Route    |  4|     1|     0|   0|    0|  209|    0|   0| 94|  0:00:00|  0:00:01|
+# Route    |  5|     0|     0|   0|    0|  207|    0|   0|100|  0:00:00|  0:00:01|
+# Clean    |  6|     0|     0|   0|    0|  180|    0|   0|   |  0:00:01|  0:00:02|
+# Clean    |  7|     0|     0|   2|    0|  176|    0|   0|   |  0:00:00|  0:00:02|
+# Clean    |  8|     0|     0|   2|    0|  178|    0|   0|   |  0:00:00|  0:00:02|
+# Clean    |  9|     0|     0|   0|    0|  177|    0|   0|   |  0:00:00|  0:00:02|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:02
+# 
+# Wiring Statistics ----------------- C:/Users/Madison/Desktop/MegaHeatv2\megaHeatv2.dsn
+# Nets 152 Connections 292 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 170, at vias 65 Total Vias 177
+# Percent Connected  100.00
+# Manhattan Length 185684.7510 Horizontal 120290.8230 Vertical 65393.9280
+# Routed Length 197603.3295 Horizontal 120092.4610 Vertical 77534.3000
+# Ratio Actual / Manhattan   1.0642
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/Madison/AppData/Local/Temp/#Taaaaak07684.tmp
+# Routing Written to File C:/Users/Madison/AppData/Local/Temp/#Taaaaak07684.tmp
+quit

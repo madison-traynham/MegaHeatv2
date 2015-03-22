@@ -3,95 +3,37 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Fri Mar 20 21:28:46 2015  |
+|                                                    Sun Mar 22 01:08:46 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CAPACITOR NON-POL_0805RF_WV_1_3
- CAPACITOR NON-POL_0805RF_WV_1_4
+ MCP4131_SOIC8_MCP4131
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Fri Mar 20 21:28:46 2015  |
-|------------------------------------------------------------------------------|
-| COMPONENTS DELETED from board drawing                                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C17                 CAPACITOR NON-POL_0805RF_WV_1_3                
- C18                 CAPACITOR NON-POL_0805RF_WV_1_3                
- C19                 CAPACITOR NON-POL_0805RF_WV_1_3                
- C20                 C_0805RF_WV_12D_10U                  
- C21                 CAPACITOR NON-POL_0805RF_WV_1_3                
- CN2                 USB_B MINI_USBBMINI_USB_B MINI                
- D2                  LED_0805RF_WV_12D_RED                
- D3                  LED_0805RF_WV_12D_GREEN                
- D12                 LED_0805RF_WV_12D_GREEN                
- F1                  FUSE_1206RF_WV_12D_MF-MSMF050-2                
- J5                  JUMPER_1210RF_WV_12D_TX-EN                
- J6                  HEADER 6_ICSP_STRAIGHT_ICSP-PTH                
- R14                 R_0805RF_WV_12D_330                  
- R15                 R_0805RF_WV_12D_1K                   
- R16                 R_0805RF_WV_12D_750                  
- R17                 R_0805RF_WV_12D_10K                  
- R18                 R_0805RF_WV_12D_10K                  
- R19                 R_0805RF_WV_12D_750                  
- R37                 R_0805RF_WV_12D_1K                   
- R38                 R_0805RF_WV_12D_750                  
- U11                 FT232RL_RS232RL_FOOTPRINT_FT232                
- U12                 RMCM01_RMCM01_RMCM01                 
- U13                 PIC16F913_SOIC28_PIC16F913                
- Y3                  XM/SM_0_MC-146_16MHZ                 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Fri Mar 20 21:28:46 2015  |
+|                                                    Sun Mar 22 01:08:46 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C2                  CAPACITOR NON-POL_0805RF_WV_1_3 -241.50  566.00 CAPACITOR NON-POL_0805RF_WV_1_4
- C3                  CAPACITOR NON-POL_0805RF_WV_1_3 -1422.7 -1052.5 CAPACITOR NON-POL_0805RF_WV_1_4
- C4                  CAPACITOR NON-POL_0805RF_WV_1_3  442.00  561.50 CAPACITOR NON-POL_0805RF_WV_1_4
- C5                  CAPACITOR NON-POL_0805RF_WV_1_3 -544.00   47.25 CAPACITOR NON-POL_0805RF_WV_1_4
- C23                 CAPACITOR NON-POL_0805RF_WV_1_4 -809.50 -283.25 CAPACITOR NON-POL_0805RF_WV_1_3
- C24                 CAPACITOR NON-POL_0805RF_WV_1_4 -537.75 -282.00 CAPACITOR NON-POL_0805RF_WV_1_3
- C26                 CAPACITOR NON-POL_0805RF_WV_1_3 -2221.7 -729.00 CAPACITOR NON-POL_0805RF_WV_1_4
- C29                 CAPACITOR NON-POL_0805RF_WV_1_3                 CAPACITOR NON-POL_0805RF_WV_1_4
- C30                 CAPACITOR NON-POL_0805RF_WV_1_3 -2265.7  727.00 CAPACITOR NON-POL_0805RF_WV_1_4
- C34                 CAPACITOR NON-POL_0805RF_WV_1_3 -975.50  547.75 CAPACITOR NON-POL_0805RF_WV_1_4
- C35                 CAPACITOR NON-POL_0805RF_WV_1_3                 CAPACITOR NON-POL_0805RF_WV_1_4
- C36                 CAPACITOR NON-POL_0805RF_WV_1_3                 CAPACITOR NON-POL_0805RF_WV_1_4
+ U20                 MCP4131_SOIC8_MCP4131                 MCP4131_MCP413X_MCP4131
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Fri Mar 20 21:28:46 2015  |
+|                                                    Sun Mar 22 01:08:46 2015  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C2.2           -241.50  566.00 PRIM_FILE      .\pstchip.dat
- C3.2           -1422.7 -1052.5 PRIM_FILE      .\pstchip.dat
- C4.2            442.00  561.50 PRIM_FILE      .\pstchip.dat
- C5.2           -544.00   47.25 PRIM_FILE      .\pstchip.dat
- C23.2          -809.50 -283.25 PRIM_FILE      .\pstchip.dat
- C24.2          -537.75 -282.00 PRIM_FILE      .\pstchip.dat
- C26.2          -2221.7 -729.00 PRIM_FILE      .\pstchip.dat
- C29.2                          PRIM_FILE      .\pstchip.dat
- C30.2          -2265.7  727.00 PRIM_FILE      .\pstchip.dat
- C34.2          -975.50  547.75 PRIM_FILE      .\pstchip.dat
- C35.2                          PRIM_FILE      .\pstchip.dat
- C36.2                          PRIM_FILE      .\pstchip.dat
+ U20.4                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  50                                             |
+|   total ECO changes reported  3                                              |
 |------------------------------------------------------------------------------|

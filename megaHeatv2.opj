@@ -143,14 +143,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\madison\desktop\megaheatv2\megaheatv2.dsn")
-      (Path "Design Resources"
-         "c:\users\madison\desktop\megaheatv2\megaheatv2.dsn" "Schematic 1")
+      (Path "Design Resources" ".\megaheatv2.dsn")
+      (Path "Design Resources" ".\megaheatv2.dsn" "Schematic 1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\madison\desktop\megaheatv2\library1.olb")
-      (Path "Outputs"))
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\megaheatv2.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -261,7 +259,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1736 125 594")
-        (Scroll "-296 33")
+        (Scroll "-296 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")

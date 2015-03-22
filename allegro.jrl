@@ -1,0 +1,1067 @@
+\t (00:00:07) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:07)     Journal start - Sat Mar 21 22:26:09 2015
+\t (00:00:07)         Host=MADISON-PC User=Madison Pid=3604 CPUs=4
+\t (00:00:07) 
+\t (00:00:09) Opening existing design...
+\d (00:00:10) Database opened: C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd
+\i (00:00:11) trapsize 2463
+\i (00:00:11) trapsize 2418
+\i (00:00:11) trapsize 2471
+\i (00:00:12) trapsize 2518
+\i (00:00:12) trapsize 2643
+\i (00:00:13) trapsize 6957
+\i (00:00:13) generaledit 
+\i (00:00:14) trapsize 2643
+\i (00:00:15) zoom out 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom out 71.20 -3203.36
+\i (00:00:15) trapsize 5036
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -2287.32 1742.30
+\i (00:00:15) trapsize 2518
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -1617.59 946.68
+\i (00:00:16) trapsize 5036
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -968.01 -80.57
+\i (00:00:16) trapsize 2518
+\i (00:00:20) placementedit 
+\i (00:00:23) placementedit 
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 728.98 -45.31
+\i (00:00:25) trapsize 5036
+\i (00:00:25) zoom in 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom in 2425.95 -10.07
+\i (00:00:25) trapsize 2518
+\i (00:00:26) setwindow form.mini
+\i (00:00:26) FORM mini plcman_button  
+\i (00:00:26) setwindow pcb
+\i (00:00:26) placementedit 
+\i (00:00:26) place manual 
+\i (00:00:29) setwindow form.plc_manual
+\i (00:00:29) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:29) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:30) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:30) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:31) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\i (00:00:32) FORM plc_manual cancel  
+\i (00:00:32) setwindow pcb
+\i (00:00:32) placementedit 
+\i (00:16:59) dlib 
+\i (00:17:03) setwindow form.dlib
+\i (00:17:03) FORM dlib browse_export  
+\i (00:17:24) fillin "C:/Users/Madison/Desktop/MegaHeatv2"
+\i (00:17:30) FORM dlib execute  
+\t (00:17:30) Starting Cadence export libraries...
+\i (00:19:44) FORM dlib cancel  
+\i (00:19:44) setwindow pcb
+\i (00:19:44) placementedit 
+\i (01:08:37) xhilite 
+\i (01:08:37) xrefdes U1 
+\i (01:08:37) xname_flush 
+\i (01:08:37) trapsize 1004
+\t (01:08:37) Symbol "U1" highlighted.
+\i (01:08:37) done 
+\i (01:08:37) placementedit 
+\i (01:08:45) xdehilite 
+\i (01:08:45) xrefdes U1 
+\i (01:08:45) xname_flush 
+\t (01:08:45) Symbol "U1" dehighlighted.
+\i (01:08:45) done 
+\i (01:08:45) placementedit 
+\i (01:17:53) xhilite 
+\i (01:17:53) xname_flush 
+\i (01:17:53) done 
+\i (01:17:53) placementedit 
+\i (01:17:53) xdehilite 
+\i (01:17:53) xname_flush 
+\i (01:17:53) done 
+\i (01:17:53) placementedit 
+\i (01:18:10) xhilite 
+\i (01:18:10) xNet 5V 
+\i (01:18:10) xname_flush 
+\i (01:18:10) trapsize 1777
+\t (01:18:10) Net "5V" highlighted.
+\i (01:18:10) done 
+\i (01:18:10) placementedit 
+\i (01:18:10) xdehilite 
+\i (01:18:11) xNet 5V 
+\i (01:18:11) xname_flush 
+\t (01:18:11) Net "5V" dehighlighted.
+\i (01:18:11) done 
+\i (01:18:11) placementedit 
+\i (01:18:25) xhilite 
+\i (01:18:25) xNet 5V 
+\i (01:18:25) xname_flush 
+\i (01:18:25) trapsize 1777
+\t (01:18:25) Net "5V" highlighted.
+\i (01:18:25) done 
+\i (01:18:25) placementedit 
+\i (01:18:25) xdehilite 
+\i (01:18:25) xNet 5V 
+\i (01:18:25) xname_flush 
+\t (01:18:25) Net "5V" dehighlighted.
+\i (01:18:25) done 
+\i (01:18:25) placementedit 
+\i (01:18:39) xdehilite 
+\i (01:18:39) xname_flush 
+\i (01:18:39) done 
+\i (01:18:39) placementedit 
+\i (01:18:59) xhilite 
+\i (01:18:59) xname_flush 
+\i (01:18:59) done 
+\i (01:18:59) placementedit 
+\i (01:19:00) xdehilite 
+\i (01:19:00) xname_flush 
+\i (01:19:00) done 
+\i (01:19:00) placementedit 
+\i (01:19:01) xhilite 
+\i (01:19:01) xname_flush 
+\i (01:19:01) done 
+\i (01:19:01) placementedit 
+\i (01:19:25) xdehilite 
+\i (01:19:25) xname_flush 
+\i (01:19:25) done 
+\i (01:19:25) placementedit 
+\i (01:19:27) xhilite 
+\i (01:19:27) xNet 5V 
+\i (01:19:27) xname_flush 
+\i (01:19:27) trapsize 1777
+\t (01:19:27) Net "5V" highlighted.
+\i (01:19:27) done 
+\i (01:19:27) placementedit 
+\i (01:19:30) xdehilite 
+\i (01:19:30) xNet 5V 
+\i (01:19:30) xname_flush 
+\t (01:19:30) Net "5V" dehighlighted.
+\i (01:19:30) done 
+\i (01:19:30) placementedit 
+\i (01:19:31) xhilite 
+\i (01:19:31) xname_flush 
+\i (01:19:31) done 
+\i (01:19:31) placementedit 
+\i (01:19:37) xdehilite 
+\i (01:19:37) xname_flush 
+\i (01:19:37) done 
+\i (01:19:37) placementedit 
+\i (01:19:37) xhilite 
+\i (01:19:37) xname_flush 
+\i (01:19:37) done 
+\i (01:19:37) placementedit 
+\i (01:19:38) xdehilite 
+\i (01:19:38) xname_flush 
+\i (01:19:38) done 
+\i (01:19:38) placementedit 
+\i (01:19:42) xhilite 
+\i (01:19:42) xname_flush 
+\i (01:19:42) done 
+\i (01:19:42) placementedit 
+\i (01:19:42) xdehilite 
+\i (01:19:42) xname_flush 
+\i (01:19:42) done 
+\i (01:19:42) placementedit 
+\i (01:19:43) xhilite 
+\i (01:19:43) xname_flush 
+\i (01:19:43) done 
+\i (01:19:43) placementedit 
+\i (01:19:46) xhilite 
+\i (01:19:46) xname_flush 
+\i (01:19:46) done 
+\i (01:19:46) placementedit 
+\i (01:19:46) xdehilite 
+\i (01:19:46) xname_flush 
+\i (01:19:46) done 
+\i (01:19:46) placementedit 
+\i (01:19:56) xhilite 
+\i (01:19:56) xname_flush 
+\i (01:19:56) done 
+\i (01:19:56) placementedit 
+\i (01:19:56) xdehilite 
+\i (01:19:56) xname_flush 
+\i (01:19:56) done 
+\i (01:19:56) placementedit 
+\i (01:19:57) xhilite 
+\i (01:19:57) xname_flush 
+\i (01:19:57) done 
+\i (01:19:57) placementedit 
+\i (01:19:57) xdehilite 
+\i (01:19:57) xname_flush 
+\i (01:19:57) done 
+\i (01:19:57) placementedit 
+\i (01:20:24) xhilite 
+\i (01:20:24) xNet 5V 
+\i (01:20:24) xname_flush 
+\i (01:20:24) trapsize 1777
+\t (01:20:24) Net "5V" highlighted.
+\i (01:20:25) done 
+\i (01:20:25) placementedit 
+\i (01:20:26) xdehilite 
+\i (01:20:26) xNet 5V 
+\i (01:20:26) xname_flush 
+\t (01:20:26) Net "5V" dehighlighted.
+\i (01:20:26) done 
+\i (01:20:26) placementedit 
+\i (01:20:27) xhilite 
+\i (01:20:27) xNet 5V 
+\i (01:20:27) xname_flush 
+\i (01:20:27) trapsize 1777
+\t (01:20:27) Net "5V" highlighted.
+\i (01:20:27) done 
+\i (01:20:27) placementedit 
+\i (01:20:28) xdehilite 
+\i (01:20:28) xNet 5V 
+\i (01:20:28) xname_flush 
+\t (01:20:28) Net "5V" dehighlighted.
+\i (01:20:28) done 
+\i (01:20:28) placementedit 
+\i (01:20:31) xhilite 
+\i (01:20:31) xname_flush 
+\i (01:20:31) done 
+\i (01:20:31) placementedit 
+\i (01:20:31) xdehilite 
+\i (01:20:31) xname_flush 
+\i (01:20:31) done 
+\i (01:20:31) placementedit 
+\i (01:20:38) xhilite 
+\i (01:20:38) xNet 5V 
+\i (01:20:38) xname_flush 
+\i (01:20:38) trapsize 1777
+\t (01:20:38) Net "5V" highlighted.
+\i (01:20:38) done 
+\i (01:20:38) placementedit 
+\i (01:20:39) xdehilite 
+\i (01:20:39) xNet 5V 
+\i (01:20:39) xname_flush 
+\t (01:20:39) Net "5V" dehighlighted.
+\i (01:20:39) done 
+\i (01:20:39) placementedit 
+\i (01:20:41) xhilite 
+\i (01:20:41) xNet 5V 
+\i (01:20:41) xname_flush 
+\i (01:20:41) trapsize 1777
+\t (01:20:41) Net "5V" highlighted.
+\i (01:20:41) done 
+\i (01:20:41) placementedit 
+\i (01:20:41) xdehilite 
+\i (01:20:41) xNet 5V 
+\i (01:20:41) xname_flush 
+\t (01:20:41) Net "5V" dehighlighted.
+\i (01:20:41) done 
+\i (01:20:41) placementedit 
+\i (01:21:40) xhilite 
+\i (01:21:40) xname_flush 
+\i (01:21:40) done 
+\i (01:21:40) placementedit 
+\i (01:21:41) xdehilite 
+\i (01:21:41) xname_flush 
+\i (01:21:41) done 
+\i (01:21:41) placementedit 
+\i (01:21:50) xhilite 
+\i (01:21:50) xname_flush 
+\i (01:21:50) done 
+\i (01:21:50) placementedit 
+\i (01:21:50) xdehilite 
+\i (01:21:50) xname_flush 
+\i (01:21:50) done 
+\i (01:21:50) placementedit 
+\i (01:21:50) xhilite 
+\i (01:21:50) xname_flush 
+\i (01:21:50) done 
+\i (01:21:50) placementedit 
+\i (01:21:52) xdehilite 
+\i (01:21:52) xname_flush 
+\i (01:21:52) done 
+\i (01:21:52) placementedit 
+\i (01:21:56) xhilite 
+\i (01:21:56) xname_flush 
+\i (01:21:56) done 
+\i (01:21:56) placementedit 
+\i (01:21:59) xdehilite 
+\i (01:21:59) xname_flush 
+\i (01:21:59) done 
+\i (01:21:59) placementedit 
+\i (01:22:00) xhilite 
+\i (01:22:00) xname_flush 
+\i (01:22:00) done 
+\i (01:22:00) placementedit 
+\i (01:22:03) xdehilite 
+\i (01:22:03) xname_flush 
+\i (01:22:03) done 
+\i (01:22:03) placementedit 
+\i (01:26:36) xhilite 
+\i (01:26:36) xname_flush 
+\i (01:26:36) done 
+\i (01:26:36) placementedit 
+\i (01:26:54) xhilite 
+\i (01:26:54) xname_flush 
+\i (01:26:54) done 
+\i (01:26:54) placementedit 
+\i (01:26:54) xdehilite 
+\i (01:26:54) xname_flush 
+\i (01:26:54) done 
+\i (01:26:54) placementedit 
+\i (01:26:54) xhilite 
+\i (01:26:54) xname_flush 
+\i (01:26:54) done 
+\i (01:26:54) placementedit 
+\i (01:26:55) xdehilite 
+\i (01:26:55) xname_flush 
+\i (01:26:55) done 
+\i (01:26:55) placementedit 
+\i (01:26:55) xhilite 
+\i (01:26:55) xname_flush 
+\i (01:26:55) done 
+\i (01:26:55) placementedit 
+\i (01:26:56) xdehilite 
+\i (01:26:56) xname_flush 
+\i (01:26:56) done 
+\i (01:26:56) placementedit 
+\i (01:26:57) xhilite 
+\i (01:26:57) xname_flush 
+\i (01:26:57) done 
+\i (01:26:57) placementedit 
+\i (01:26:59) xdehilite 
+\i (01:26:59) xname_flush 
+\i (01:26:59) done 
+\i (01:26:59) placementedit 
+\i (01:27:01) xhilite 
+\i (01:27:01) xname_flush 
+\i (01:27:01) done 
+\i (01:27:01) placementedit 
+\i (01:27:01) xdehilite 
+\i (01:27:01) xname_flush 
+\i (01:27:01) done 
+\i (01:27:01) placementedit 
+\i (01:27:02) xhilite 
+\i (01:27:02) xname_flush 
+\i (01:27:02) done 
+\i (01:27:02) placementedit 
+\i (01:27:06) xdehilite 
+\i (01:27:06) xname_flush 
+\i (01:27:06) done 
+\i (01:27:06) placementedit 
+\i (01:27:24) xhilite 
+\i (01:27:24) xname_flush 
+\i (01:27:24) done 
+\i (01:27:24) placementedit 
+\i (01:27:56) xhilite 
+\i (01:27:56) xname_flush 
+\i (01:27:56) done 
+\i (01:27:56) placementedit 
+\i (01:27:57) xdehilite 
+\i (01:27:57) xname_flush 
+\i (01:27:57) done 
+\i (01:27:57) placementedit 
+\i (01:27:57) xhilite 
+\i (01:27:57) xname_flush 
+\i (01:27:57) done 
+\i (01:27:57) placementedit 
+\i (01:28:00) xdehilite 
+\i (01:28:00) xname_flush 
+\i (01:28:00) done 
+\i (01:28:00) placementedit 
+\i (01:28:01) xhilite 
+\i (01:28:01) xname_flush 
+\i (01:28:01) done 
+\i (01:28:01) placementedit 
+\i (01:28:04) xdehilite 
+\i (01:28:04) xname_flush 
+\i (01:28:04) done 
+\i (01:28:04) placementedit 
+\i (01:28:07) xhilite 
+\i (01:28:07) xNet 5V 
+\i (01:28:07) xname_flush 
+\i (01:28:07) trapsize 1777
+\t (01:28:07) Net "5V" highlighted.
+\i (01:28:07) done 
+\i (01:28:07) placementedit 
+\i (01:28:08) xdehilite 
+\i (01:28:08) xNet 5V 
+\i (01:28:08) xname_flush 
+\t (01:28:08) Net "5V" dehighlighted.
+\i (01:28:08) done 
+\i (01:28:08) placementedit 
+\i (01:28:18) xhilite 
+\i (01:28:18) xname_flush 
+\i (01:28:18) done 
+\i (01:28:18) placementedit 
+\i (01:28:25) xhilite 
+\i (01:28:25) xname_flush 
+\i (01:28:25) done 
+\i (01:28:25) placementedit 
+\i (01:28:25) xdehilite 
+\i (01:28:25) xname_flush 
+\i (01:28:25) done 
+\i (01:28:25) placementedit 
+\i (01:28:26) xhilite 
+\i (01:28:26) xname_flush 
+\i (01:28:26) done 
+\i (01:28:26) placementedit 
+\i (01:28:39) xhilite 
+\i (01:28:39) xNet Gnd 
+\i (01:28:39) xname_flush 
+\i (01:28:39) trapsize 1777
+\t (01:28:39) Net "Gnd" highlighted.
+\i (01:28:39) done 
+\i (01:28:39) placementedit 
+\i (01:28:39) xdehilite 
+\i (01:28:39) xNet Gnd 
+\i (01:28:39) xname_flush 
+\t (01:28:39) Net "Gnd" dehighlighted.
+\i (01:28:39) done 
+\i (01:28:39) placementedit 
+\i (01:34:13) xhilite 
+\i (01:34:13) xname_flush 
+\i (01:34:13) done 
+\i (01:34:13) placementedit 
+\i (01:34:15) xdehilite 
+\i (01:34:15) xname_flush 
+\i (01:34:15) done 
+\i (01:34:15) placementedit 
+\i (01:34:30) xhilite 
+\i (01:34:31) xname_flush 
+\i (01:34:31) done 
+\i (01:34:31) placementedit 
+\i (01:34:33) xdehilite 
+\i (01:34:33) xname_flush 
+\i (01:34:33) done 
+\i (01:34:33) placementedit 
+\i (01:34:35) xhilite 
+\i (01:34:35) xname_flush 
+\i (01:34:35) done 
+\i (01:34:35) placementedit 
+\i (01:34:37) xdehilite 
+\i (01:34:37) xname_flush 
+\i (01:34:37) done 
+\i (01:34:37) placementedit 
+\i (01:34:46) xhilite 
+\i (01:34:46) xname_flush 
+\i (01:34:46) done 
+\i (01:34:46) placementedit 
+\i (01:34:54) xdehilite 
+\i (01:34:54) xname_flush 
+\i (01:34:54) done 
+\i (01:34:54) placementedit 
+\i (01:34:55) xhilite 
+\i (01:34:55) xname_flush 
+\i (01:34:55) done 
+\i (01:34:55) placementedit 
+\i (01:34:59) xhilite 
+\i (01:34:59) xname_flush 
+\i (01:34:59) done 
+\i (01:34:59) placementedit 
+\i (01:35:01) xdehilite 
+\i (01:35:01) xname_flush 
+\i (01:35:01) done 
+\i (01:35:01) placementedit 
+\i (01:35:01) xhilite 
+\i (01:35:01) xname_flush 
+\i (01:35:01) done 
+\i (01:35:01) placementedit 
+\i (01:35:03) xdehilite 
+\i (01:35:03) xname_flush 
+\i (01:35:03) done 
+\i (01:35:03) placementedit 
+\i (01:35:03) xhilite 
+\i (01:35:03) xname_flush 
+\i (01:35:03) done 
+\i (01:35:03) placementedit 
+\i (01:35:03) xdehilite 
+\i (01:35:03) xname_flush 
+\i (01:35:03) done 
+\i (01:35:03) placementedit 
+\i (01:35:10) xhilite 
+\i (01:35:10) xname_flush 
+\i (01:35:10) done 
+\i (01:35:10) placementedit 
+\i (01:35:10) xdehilite 
+\i (01:35:10) xname_flush 
+\i (01:35:10) done 
+\i (01:35:10) placementedit 
+\i (01:35:14) xhilite 
+\i (01:35:14) xname_flush 
+\i (01:35:14) done 
+\i (01:35:14) placementedit 
+\i (01:35:15) xdehilite 
+\i (01:35:15) xNet Gnd 
+\i (01:35:15) xname_flush 
+\t (01:35:15) Net "Gnd" dehighlighted.
+\i (01:35:15) done 
+\i (01:35:16) xhilite 
+\i (01:35:16) xNet Gnd 
+\i (01:35:16) xname_flush 
+\i (01:35:16) trapsize 1777
+\t (01:35:16) Net "Gnd" highlighted.
+\i (01:35:16) done 
+\i (01:35:16) placementedit 
+\i (01:35:16) xdehilite 
+\i (01:35:16) xNet Gnd 
+\i (01:35:16) xname_flush 
+\t (01:35:16) Net "Gnd" dehighlighted.
+\i (01:35:16) done 
+\i (01:35:16) placementedit 
+\i (01:35:19) xhilite 
+\i (01:35:19) xname_flush 
+\i (01:35:19) done 
+\i (01:35:19) placementedit 
+\i (01:35:31) xdehilite 
+\i (01:35:31) xname_flush 
+\i (01:35:31) done 
+\i (01:35:31) placementedit 
+\i (01:35:31) xhilite 
+\i (01:35:31) xname_flush 
+\i (01:35:31) done 
+\i (01:35:31) placementedit 
+\i (01:35:31) xdehilite 
+\i (01:35:31) xname_flush 
+\i (01:35:31) done 
+\i (01:35:31) placementedit 
+\i (01:35:33) xhilite 
+\i (01:35:33) xname_flush 
+\i (01:35:33) done 
+\i (01:35:33) placementedit 
+\i (01:35:44) xhilite 
+\i (01:35:44) xname_flush 
+\i (01:35:44) done 
+\i (01:35:44) placementedit 
+\i (01:35:47) xdehilite 
+\i (01:35:47) xname_flush 
+\i (01:35:47) done 
+\i (01:35:47) placementedit 
+\i (01:36:06) xhilite 
+\i (01:36:06) xname_flush 
+\i (01:36:06) done 
+\i (01:36:06) placementedit 
+\i (01:36:22) xhilite 
+\i (01:36:22) xname_flush 
+\i (01:36:22) done 
+\i (01:36:22) placementedit 
+\i (01:36:24) xdehilite 
+\i (01:36:24) xname_flush 
+\i (01:36:24) done 
+\i (01:36:24) placementedit 
+\i (01:36:25) xhilite 
+\i (01:36:25) xname_flush 
+\i (01:36:25) done 
+\i (01:36:25) placementedit 
+\i (01:36:26) xdehilite 
+\i (01:36:26) xname_flush 
+\i (01:36:26) done 
+\i (01:36:26) placementedit 
+\i (01:37:29) xhilite 
+\i (01:37:29) xNet D51 
+\i (01:37:29) xname_flush 
+\i (01:37:29) trapsize 849
+\t (01:37:29) Net "D51" highlighted.
+\i (01:37:29) done 
+\i (01:37:29) placementedit 
+\i (01:37:40) xhilite 
+\i (01:37:40) xname_flush 
+\i (01:37:40) done 
+\i (01:37:40) placementedit 
+\i (01:38:03) xhilite 
+\i (01:38:03) xname_flush 
+\i (01:38:03) done 
+\i (01:38:03) placementedit 
+\i (01:38:33) xhilite 
+\i (01:38:33) xname_flush 
+\i (01:38:33) done 
+\i (01:38:33) placementedit 
+\i (01:38:33) xdehilite 
+\i (01:38:34) xname_flush 
+\i (01:38:34) done 
+\i (01:38:34) placementedit 
+\i (01:38:35) xhilite 
+\i (01:38:35) xname_flush 
+\i (01:38:35) done 
+\i (01:38:35) placementedit 
+\i (01:38:52) xhilite 
+\i (01:38:52) xname_flush 
+\i (01:38:52) done 
+\i (01:38:52) placementedit 
+\i (01:38:54) xdehilite 
+\i (01:38:54) xname_flush 
+\i (01:38:54) done 
+\i (01:38:54) placementedit 
+\i (01:38:58) xhilite 
+\i (01:38:58) xname_flush 
+\i (01:38:58) done 
+\i (01:38:58) placementedit 
+\i (01:39:00) xdehilite 
+\i (01:39:00) xname_flush 
+\i (01:39:00) done 
+\i (01:39:00) placementedit 
+\i (01:39:15) xhilite 
+\i (01:39:15) xname_flush 
+\i (01:39:15) done 
+\i (01:39:15) placementedit 
+\i (01:39:16) xdehilite 
+\i (01:39:16) xname_flush 
+\i (01:39:16) done 
+\i (01:39:16) placementedit 
+\i (01:39:16) xhilite 
+\i (01:39:16) xname_flush 
+\i (01:39:16) done 
+\i (01:39:16) placementedit 
+\i (01:39:17) xdehilite 
+\i (01:39:17) xname_flush 
+\i (01:39:17) done 
+\i (01:39:17) placementedit 
+\i (01:39:18) xhilite 
+\i (01:39:18) xname_flush 
+\i (01:39:18) done 
+\i (01:39:18) placementedit 
+\i (01:39:19) xdehilite 
+\i (01:39:19) xname_flush 
+\i (01:39:19) done 
+\i (01:39:19) placementedit 
+\i (01:39:19) xhilite 
+\i (01:39:19) xname_flush 
+\i (01:39:19) done 
+\i (01:39:19) placementedit 
+\i (01:39:21) xdehilite 
+\i (01:39:21) xname_flush 
+\i (01:39:21) done 
+\i (01:39:21) placementedit 
+\i (01:39:21) xhilite 
+\i (01:39:21) xname_flush 
+\i (01:39:21) done 
+\i (01:39:21) placementedit 
+\i (01:39:21) xdehilite 
+\i (01:39:21) xname_flush 
+\i (01:39:21) done 
+\i (01:39:21) placementedit 
+\i (01:39:23) xhilite 
+\i (01:39:23) xname_flush 
+\i (01:39:23) done 
+\i (01:39:23) placementedit 
+\i (01:39:24) xdehilite 
+\i (01:39:24) xname_flush 
+\i (01:39:24) done 
+\i (01:39:24) placementedit 
+\i (01:39:38) xhilite 
+\i (01:39:38) xname_flush 
+\i (01:39:38) done 
+\i (01:39:38) placementedit 
+\i (01:40:00) xhilite 
+\i (01:40:00) xname_flush 
+\i (01:40:00) done 
+\i (01:40:00) placementedit 
+\i (01:41:24) xhilite 
+\i (01:41:24) xname_flush 
+\i (01:41:24) done 
+\i (01:41:24) placementedit 
+\i (01:41:24) xdehilite 
+\i (01:41:24) xname_flush 
+\i (01:41:24) done 
+\i (01:41:24) placementedit 
+\i (01:41:26) xhilite 
+\i (01:41:26) xname_flush 
+\i (01:41:26) done 
+\i (01:41:26) placementedit 
+\i (01:41:28) xdehilite 
+\i (01:41:28) xname_flush 
+\i (01:41:28) done 
+\i (01:41:28) placementedit 
+\i (01:41:28) xhilite 
+\i (01:41:28) xname_flush 
+\i (01:41:28) done 
+\i (01:41:28) placementedit 
+\i (01:41:29) xdehilite 
+\i (01:41:29) xname_flush 
+\i (01:41:29) done 
+\i (01:41:29) placementedit 
+\i (01:41:30) xhilite 
+\i (01:41:30) xname_flush 
+\i (01:41:30) done 
+\i (01:41:30) placementedit 
+\i (01:41:30) xdehilite 
+\i (01:41:30) xname_flush 
+\i (01:41:30) done 
+\i (01:41:30) placementedit 
+\i (01:41:30) xhilite 
+\i (01:41:30) xname_flush 
+\i (01:41:30) done 
+\i (01:41:30) placementedit 
+\i (01:41:31) xdehilite 
+\i (01:41:31) xname_flush 
+\i (01:41:31) done 
+\i (01:41:31) placementedit 
+\i (01:41:33) xhilite 
+\i (01:41:34) xname_flush 
+\i (01:41:34) done 
+\i (01:41:34) placementedit 
+\i (01:41:35) xdehilite 
+\i (01:41:35) xname_flush 
+\i (01:41:35) done 
+\i (01:41:35) placementedit 
+\i (01:41:37) xhilite 
+\i (01:41:37) xname_flush 
+\i (01:41:37) done 
+\i (01:41:37) placementedit 
+\i (01:41:38) xdehilite 
+\i (01:41:38) xname_flush 
+\i (01:41:38) done 
+\i (01:41:38) placementedit 
+\i (01:41:38) xhilite 
+\i (01:41:38) xname_flush 
+\i (01:41:38) done 
+\i (01:41:38) placementedit 
+\i (01:42:58) xhilite 
+\i (01:42:58) xNet D24 
+\i (01:42:58) xname_flush 
+\i (01:42:58) trapsize 541
+\t (01:42:58) Net "D24" highlighted.
+\i (01:42:58) done 
+\i (01:42:58) placementedit 
+\i (01:42:59) xdehilite 
+\i (01:42:59) xNet D24 
+\i (01:42:59) xname_flush 
+\t (01:42:59) Net "D24" dehighlighted.
+\i (01:42:59) done 
+\i (01:42:59) placementedit 
+\i (01:43:25) xhilite 
+\i (01:43:25) xname_flush 
+\i (01:43:25) done 
+\i (01:43:25) placementedit 
+\i (01:43:26) xdehilite 
+\i (01:43:26) xname_flush 
+\i (01:43:26) done 
+\i (01:43:26) placementedit 
+\i (01:43:30) xhilite 
+\i (01:43:30) xname_flush 
+\i (01:43:30) done 
+\i (01:43:30) placementedit 
+\i (01:43:32) xdehilite 
+\i (01:43:32) xname_flush 
+\i (01:43:32) done 
+\i (01:43:32) placementedit 
+\i (01:44:03) xdehilite 
+\i (01:44:03) xname_flush 
+\i (01:44:03) done 
+\i (01:44:03) placementedit 
+\i (01:44:14) xhilite 
+\i (01:44:14) xname_flush 
+\i (01:44:14) done 
+\i (01:44:14) placementedit 
+\i (01:44:14) xdehilite 
+\i (01:44:14) xname_flush 
+\i (01:44:14) done 
+\i (01:44:14) placementedit 
+\i (01:44:15) xhilite 
+\i (01:44:15) xname_flush 
+\i (01:44:15) done 
+\i (01:44:15) placementedit 
+\i (01:45:21) xhilite 
+\i (01:45:21) xname_flush 
+\i (01:45:21) done 
+\i (01:45:21) placementedit 
+\i (01:45:22) xdehilite 
+\i (01:45:22) xname_flush 
+\i (01:45:22) done 
+\i (01:45:22) placementedit 
+\i (01:49:09) xhilite 
+\i (01:49:09) xname_flush 
+\i (01:49:09) done 
+\i (01:49:09) placementedit 
+\i (01:49:09) xdehilite 
+\i (01:49:09) xname_flush 
+\i (01:49:09) done 
+\i (01:49:09) placementedit 
+\i (01:53:08) xhilite 
+\i (01:53:08) xname_flush 
+\i (01:53:08) done 
+\i (01:53:08) placementedit 
+\i (01:53:11) xdehilite 
+\i (01:53:11) xname_flush 
+\i (01:53:11) done 
+\i (01:53:11) placementedit 
+\i (01:53:13) xhilite 
+\i (01:53:13) xname_flush 
+\i (01:53:13) done 
+\i (01:53:14) placementedit 
+\i (01:53:16) xdehilite 
+\i (01:53:16) xname_flush 
+\i (01:53:16) done 
+\i (01:53:16) placementedit 
+\i (01:53:18) xhilite 
+\i (01:53:18) xname_flush 
+\i (01:53:18) done 
+\i (01:53:18) placementedit 
+\i (01:53:22) xdehilite 
+\i (01:53:22) xname_flush 
+\i (01:53:22) done 
+\i (01:53:22) placementedit 
+\i (01:53:23) xhilite 
+\i (01:53:23) xname_flush 
+\i (01:53:23) done 
+\i (01:53:23) placementedit 
+\i (01:53:26) xhilite 
+\i (01:53:26) xname_flush 
+\i (01:53:26) done 
+\i (01:53:26) placementedit 
+\i (01:53:27) xdehilite 
+\i (01:53:27) xname_flush 
+\i (01:53:27) done 
+\i (01:53:27) placementedit 
+\i (01:53:30) xhilite 
+\i (01:53:30) xname_flush 
+\i (01:53:30) done 
+\i (01:53:30) placementedit 
+\i (01:53:32) xdehilite 
+\i (01:53:32) xname_flush 
+\i (01:53:32) done 
+\i (01:53:32) placementedit 
+\i (01:53:32) xhilite 
+\i (01:53:32) xname_flush 
+\i (01:53:32) done 
+\i (01:53:32) placementedit 
+\i (01:53:32) xdehilite 
+\i (01:53:32) xname_flush 
+\i (01:53:32) done 
+\i (01:53:32) placementedit 
+\i (01:53:34) xhilite 
+\i (01:53:34) xname_flush 
+\i (01:53:34) done 
+\i (01:53:34) placementedit 
+\i (01:53:37) xdehilite 
+\i (01:53:37) xname_flush 
+\i (01:53:37) done 
+\i (01:53:37) placementedit 
+\i (01:53:37) xhilite 
+\i (01:53:37) xname_flush 
+\i (01:53:37) done 
+\i (01:53:37) placementedit 
+\i (01:53:38) xdehilite 
+\i (01:53:38) xname_flush 
+\i (01:53:38) done 
+\i (01:53:38) placementedit 
+\i (01:53:38) xhilite 
+\i (01:53:38) xname_flush 
+\i (01:53:38) done 
+\i (01:53:38) placementedit 
+\i (01:53:45) xdehilite 
+\i (01:53:45) xname_flush 
+\i (01:53:45) done 
+\i (01:53:45) placementedit 
+\i (01:55:14) xhilite 
+\i (01:55:14) xname_flush 
+\i (01:55:14) done 
+\i (01:55:14) placementedit 
+\i (01:55:18) xdehilite 
+\i (01:55:18) xname_flush 
+\i (01:55:18) done 
+\i (01:55:18) placementedit 
+\i (01:55:19) xhilite 
+\i (01:55:19) xname_flush 
+\i (01:55:19) done 
+\i (01:55:19) placementedit 
+\i (01:55:22) xdehilite 
+\i (01:55:22) xname_flush 
+\i (01:55:22) done 
+\i (01:55:22) placementedit 
+\i (01:55:24) xhilite 
+\i (01:55:24) xname_flush 
+\i (01:55:24) done 
+\i (01:55:24) placementedit 
+\i (01:55:26) xdehilite 
+\i (01:55:26) xname_flush 
+\i (01:55:26) done 
+\i (01:55:26) placementedit 
+\i (01:55:32) xhilite 
+\i (01:55:32) xname_flush 
+\i (01:55:32) done 
+\i (01:55:32) placementedit 
+\i (01:55:33) xdehilite 
+\i (01:55:33) xname_flush 
+\i (01:55:33) done 
+\i (01:55:33) placementedit 
+\i (01:55:39) xhilite 
+\i (01:55:39) xname_flush 
+\i (01:55:39) done 
+\i (01:55:39) placementedit 
+\i (01:55:41) xdehilite 
+\i (01:55:41) xname_flush 
+\i (01:55:41) done 
+\i (01:55:41) placementedit 
+\i (01:56:45) xhilite 
+\i (01:56:45) xname_flush 
+\i (01:56:45) done 
+\i (01:56:45) placementedit 
+\i (01:56:46) xdehilite 
+\i (01:56:46) xname_flush 
+\i (01:56:46) done 
+\i (01:56:46) placementedit 
+\i (01:57:18) xhilite 
+\i (01:57:18) xname_flush 
+\i (01:57:18) done 
+\i (01:57:18) placementedit 
+\i (01:57:19) xdehilite 
+\i (01:57:19) xname_flush 
+\i (01:57:19) done 
+\i (01:57:19) placementedit 
+\i (01:57:50) xhilite 
+\i (01:57:50) xNet Pl7 
+\i (01:57:50) xname_flush 
+\i (01:57:50) trapsize 19
+\t (01:57:50) Net "Pl7" highlighted.
+\i (01:57:50) done 
+\i (01:57:50) placementedit 
+\i (01:57:51) xdehilite 
+\i (01:57:51) xNet Pl7 
+\i (01:57:51) xname_flush 
+\t (01:57:51) Net "Pl7" dehighlighted.
+\i (01:57:51) done 
+\i (01:57:51) placementedit 
+\i (01:58:23) xhilite 
+\i (01:58:23) xname_flush 
+\i (01:58:23) done 
+\i (01:58:23) placementedit 
+\i (01:58:25) xhilite 
+\i (01:58:25) xname_flush 
+\i (01:58:25) done 
+\i (01:58:25) placementedit 
+\i (01:58:30) xdehilite 
+\i (01:58:30) xname_flush 
+\i (01:58:30) done 
+\i (01:58:30) placementedit 
+\i (01:58:30) xhilite 
+\i (01:58:30) xname_flush 
+\i (01:58:30) done 
+\i (01:58:30) placementedit 
+\i (01:58:34) xhilite 
+\i (01:58:34) xname_flush 
+\i (01:58:34) done 
+\i (01:58:34) placementedit 
+\i (01:58:35) xdehilite 
+\i (01:58:35) xname_flush 
+\i (01:58:35) done 
+\i (01:58:35) placementedit 
+\i (01:58:35) xhilite 
+\i (01:58:35) xname_flush 
+\i (01:58:35) done 
+\i (01:58:35) placementedit 
+\i (01:58:42) xdehilite 
+\i (01:58:42) xname_flush 
+\i (01:58:42) done 
+\i (01:58:42) placementedit 
+\i (01:58:43) xhilite 
+\i (01:58:43) xname_flush 
+\i (01:58:43) done 
+\i (01:58:43) placementedit 
+\i (01:58:44) xdehilite 
+\i (01:58:44) xname_flush 
+\i (01:58:44) done 
+\i (01:58:44) placementedit 
+\i (01:58:46) xhilite 
+\i (01:58:46) xname_flush 
+\i (01:58:46) done 
+\i (01:58:46) placementedit 
+\i (01:58:48) xdehilite 
+\i (01:58:48) xname_flush 
+\i (01:58:48) done 
+\i (01:58:48) placementedit 
+\i (01:58:58) xhilite 
+\i (01:58:58) xname_flush 
+\i (01:58:58) done 
+\i (01:58:58) placementedit 
+\i (02:01:04) zoom out 1 
+\i (02:01:04) setwindow pcb
+\i (02:01:04) zoom out 55.97 -330.35
+\i (02:01:04) trapsize 39
+\i (02:01:04) zoom out 1 
+\i (02:01:04) setwindow pcb
+\i (02:01:04) zoom out 57.75 -330.82
+\i (02:01:04) trapsize 78
+\i (02:01:04) zoom out 1 
+\i (02:01:04) setwindow pcb
+\i (02:01:04) zoom out 75.78 -337.19
+\i (02:01:04) trapsize 155
+\i (02:01:04) zoom out 1 
+\i (02:01:04) setwindow pcb
+\i (02:01:04) zoom out 78.88 -338.75
+\i (02:01:04) trapsize 311
+\i (02:01:04) zoom out 1 
+\i (02:01:04) setwindow pcb
+\i (02:01:04) zoom out 80.75 -340.62
+\i (02:01:04) trapsize 622
+\i (02:01:05) zoom out 1 
+\i (02:01:05) setwindow pcb
+\i (02:01:05) zoom out 91.94 -345.60
+\i (02:01:05) trapsize 1244
+\i (02:01:05) zoom out 1 
+\i (02:01:05) setwindow pcb
+\i (02:01:05) zoom out 402.85 -1091.76
+\i (02:01:05) trapsize 2487
+\i (02:01:05) zoom out 1 
+\i (02:01:05) setwindow pcb
+\i (02:01:05) zoom out 281.79 -1121.61
+\i (02:01:05) trapsize 5036
+\i (02:01:05) zoom out 1 
+\i (02:01:05) setwindow pcb
+\i (02:01:05) zoom out -152.25 -2437.20
+\i (02:01:05) trapsize 5036
+\i (02:01:06) zoom in 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom in 1690.76 -845.97
+\i (02:01:06) trapsize 2518
+\i (02:01:06) zoom in 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom in 1169.43 -845.97
+\i (02:01:06) trapsize 1259
+\i (02:01:06) zoom in 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom in 1169.43 -845.96
+\i (02:01:06) trapsize 629
+\i (02:01:06) zoom out 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom out 1169.44 -845.96
+\i (02:01:06) trapsize 1259
+\i (02:01:06) zoom out 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom out 1169.43 -845.95
+\i (02:01:06) trapsize 2518
+\i (02:01:06) zoom out 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom out 1169.42 -845.95
+\i (02:01:06) trapsize 5036
+\i (02:01:06) zoom out 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom out 1690.76 -845.97
+\i (02:01:06) trapsize 5036
+\i (02:01:07) zoom in 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom in 713.86 -976.89
+\i (02:01:07) trapsize 2518
+\i (02:01:07) zoom in 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom in 801.84 -976.89
+\i (02:01:07) trapsize 1259
+\i (02:01:07) zoom in 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom in 827.02 -976.88
+\i (02:01:07) trapsize 629
+\i (02:01:07) zoom out 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom out 827.03 -976.88
+\i (02:01:07) trapsize 1259
+\i (02:01:07) zoom out 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom out 827.02 -976.88
+\i (02:01:07) trapsize 2518
+\i (02:01:07) zoom out 1 
+\i (02:01:07) setwindow pcb
+\i (02:01:07) zoom out 827.02 -976.88
+\i (02:01:07) trapsize 5036
+\i (02:02:31) pick grid 5356.64 -1057.46
+\t (02:02:31) last pick:  5356.75  -1057.50
+\i (02:02:32) save 
+\i (02:02:34) fillin yes 
+\i (02:02:34) placementedit 
+\i (02:02:35) exit 
+\t (02:02:35)     Journal end - Sun Mar 22 00:28:37 2015

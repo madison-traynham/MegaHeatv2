@@ -3,6 +3,8 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File "C:\Cadence\SPB_16.6\tools\capture\LIBRARY\created.OLB"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\megaheatv2.dsn"
@@ -38,6 +40,26 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\PROGRAM FILES\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MCP4131
+      (FullPartName "MCP4131.Normal")
+      (LibraryName "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     ("HEADER 2"
       (FullPartName "HEADER 2.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -58,11 +80,6 @@
       (FullPartName "USB_B.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CREATED.OLB")
       (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\PROGRAM FILES\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     ("HEADER 9"
       (FullPartName "HEADER 9.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -71,15 +88,8 @@
       (FullPartName "HEADER 6.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("CAPACITOR NON-POL"
@@ -129,20 +139,17 @@
     (CRYSTAL
       (FullPartName "CRYSTAL.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (DS1307
-      (FullPartName "DS1307.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CREATED.OLB")
-      (DeviceIndex "0"))
-    (NCP1117ST50
-      (FullPartName "NCP1117ST50.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CREATED.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\megaheatv2.dsn")
-      (Path "Design Resources" ".\megaheatv2.dsn" "Schematic 1")
+      (Path "Design Resources"
+         "c:\users\madison\desktop\megaheatv2\megaheatv2.dsn")
+      (Path "Design Resources"
+         "c:\users\madison\desktop\megaheatv2\megaheatv2.dsn" "Schematic 1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\madison\desktop\megaheatv2\library1.olb")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
@@ -164,7 +171,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1811 125 444")
-        (Scroll "-266 0")
+        (Scroll "-266 18")
         (Zoom "114")
         (Occurrence "/"))
       (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
@@ -174,8 +181,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1447 50 384")
-        (Scroll "158 0")
-        (Zoom "130")
+        (Scroll "-150 0")
+        (Zoom "69")
         (Occurrence "/"))
       (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
       (Schematic "Schematic 1")
@@ -184,7 +191,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1736 125 594")
-        (Scroll "0 130")
+        (Scroll "0 507")
         (Zoom "130")
         (Occurrence "/"))
       (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
@@ -254,7 +261,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 125 1736 125 594")
-        (Scroll "-296 0")
+        (Scroll "-296 33")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")

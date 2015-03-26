@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : megaHeatv2.brd                                )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sun Mar 22 01:05:30 2015                      )
+(    Date/Time        : Wed Mar 25 18:14:34 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  6
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

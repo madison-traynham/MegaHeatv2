@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-22-2015 at 01:08:08}
+{ Using PSTWRITER 16.6.0 d001Mar-23-2015 at 22:48:49}
 primitive 'CR1220HOLDER_CR1220_CR1220HOLDE';
   pin
     'PW1':
@@ -108,7 +108,7 @@ primitive 'CAPACITOR NON-POL_0805RF_WV_1_4';
     VALUE='0.1u';
   end_body;
 end_primitive;
-primitive 'C_0805RF_WV_12D_47U';
+primitive 'C_RADCAP_47U';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -119,7 +119,7 @@ primitive 'C_0805RF_WV_12D_47U';
   end_pin;
   body
     PART_NAME='C';
-    JEDEC_TYPE='0805rf_wv_12d';
+    JEDEC_TYPE='radcap';
     VALUE='47u';
   end_body;
 end_primitive;
@@ -426,7 +426,7 @@ primitive 'HEADER 4_4X1CONN_COMM HEADER';
     VALUE='COMM Header';
   end_body;
 end_primitive;
-primitive 'HEADER 5_5X1CONN_COMPRESSOR CON';
+primitive 'HEADER 5_5X1CONN_HEADER 5';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -447,7 +447,7 @@ primitive 'HEADER 5_5X1CONN_COMPRESSOR CON';
   body
     PART_NAME='HEADER 5';
     JEDEC_TYPE='5x1conn';
-    VALUE='Compressor Control';
+    VALUE='HEADER 5';
   end_body;
 end_primitive;
 primitive 'CON2_2X1CONN_CON2';
@@ -1338,7 +1338,7 @@ primitive 'DS1307_SOIC8_DS1307';
     VALUE='DS1307';
   end_body;
 end_primitive;
-primitive 'MCP4131_SOIC08_MCP4131';
+primitive 'MCP4131_SOIC8_MCP4131';
   pin
     'CS':
       PIN_NUMBER='(1)';
@@ -1367,7 +1367,7 @@ primitive 'MCP4131_SOIC08_MCP4131';
   end_pin;
   body
     PART_NAME='MCP4131';
-    JEDEC_TYPE='SOIC08';
+    JEDEC_TYPE='soic8';
     VALUE='MCP4131';
   end_body;
 end_primitive;

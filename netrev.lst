@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : megaHeatv2.brd                                )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sun Mar 22 01:08:46 2015                      )
+(    Date/Time        : Tue Mar 24 22:10:46 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -14,23 +14,23 @@
 RIPUP_ETCH FALSE;
 RIPUP_DELETE_FIRST_SEGMENT FALSE;
 RIPUP_RETAIN_BONDWIRE FALSE;
-RIPUP_SYMBOLS ALWAYS;
+RIPUP_SYMBOLS IFSAME;
 Missing symbol has error FALSE;
-SCHEMATIC_DIRECTORY 'C:/Users/Madison/Desktop/MegaHeatv2/allegro';
+SCHEMATIC_DIRECTORY 'C:\USERS\MADISON\DESKTOP\MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C';
 BOARD_DIRECTORY '';
-OLD_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd';
-NEW_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd';
+OLD_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd';
+NEW_BOARD_NAME 'C:/Users/Madison/Desktop/MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd';
 
-CmdLine: netrev -$ -i C:/Users/Madison/Desktop/MegaHeatv2/allegro -y 1 C:/Users/Madison/Desktop/MegaHeatv2/#Taaaaae07684.tmp
+CmdLine: netrev -$ -i C:\USERS\MADISON\DESKTOP\MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C -y 2 C:/Users/Madison/Desktop/MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/#Taaaaad05700.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstchip.dat 
-   Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstchip.dat (00:00:00.04)
-Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxprt.dat 
-   Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxprt.dat (00:00:00.01)
-Starting to read C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxnet.dat 
-   Finished reading C:/Users/Madison/Desktop/MegaHeatv2/allegro/pstxnet.dat (00:00:00.00)
+Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstchip.dat 
+   Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstchip.dat (00:00:00.04)
+Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstxprt.dat 
+   Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstxnet.dat 
+   Finished reading C:/USERS/MADISON/DESKTOP/MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 22 1:08:46 2015
+netrev run on Mar 24 22:10:46 2015
    DESIGN NAME : 'MEGAHEATV2'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -84,6 +84,6 @@ netrev run on Mar 22 1:08:46 2015
  No oversight detected
  No warning detected
 
-cpu time      0:00:41
+cpu time      0:00:39
 elapsed time  0:00:00
 

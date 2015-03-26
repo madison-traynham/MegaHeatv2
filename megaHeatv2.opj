@@ -3,8 +3,6 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File "C:\Cadence\SPB_16.6\tools\capture\LIBRARY\created.OLB"
-        (Type "Schematic Library"))
-      (File ".\library1.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\megaheatv2.dsn"
@@ -12,10 +10,11 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory"
+       "C:\USERS\MADISON\DESKTOP\MEGAHEATV2-FFFD37A566992C5BFDDE254FE52BC62AC9290F2C")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "TRUE")
+    ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File" "allegro\MEGAHEATV2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
@@ -37,28 +36,37 @@
       (DisplayName "pstxprt.dat"))
     (File ".\allegro\pstchip.dat"
       (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    ("HEADER 5"
-      (FullPartName "HEADER 5.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
          "C:\PROGRAM FILES\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     (MCP4131
       (FullPartName "MCP4131.Normal")
-      (LibraryName "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\LIBRARY1.OLB")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
     ("HEADER 2"
       (FullPartName "HEADER 2.Normal")
@@ -145,125 +153,13 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\megaheatv2.dsn")
       (Path "Design Resources" ".\megaheatv2.dsn" "Schematic 1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\megaheatv2.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 0 200 0 431"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1661 50 519")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P04_microSD"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1811 125 444")
-        (Scroll "-266 18")
-        (Zoom "114")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P07_Heart_Rate_Monitor"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1447 50 384")
-        (Scroll "-150 0")
-        (Zoom "69")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P02_ATmega2560"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1736 125 594")
-        (Scroll "0 507")
-        (Zoom "130")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P11_Programming_Interface"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1786 175 644")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P10_Power_Regulation"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 175 1786 175 644")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P03_Real_Time_Clock"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 1811 200 669")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P05_Thermistors"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 225 1840 225 709")
-        (Scroll "-298 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P06_Thermocouples"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1661 50 519")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P08_ESP8266_WiFi_Module"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1661 0 356")
-        (Scroll "-321 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P09_Accelerometer"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1736 125 594")
-        (Scroll "-296 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\MADISON\DESKTOP\MEGAHEATV2\MEGAHEATV2.DSN")
-      (Schematic "Schematic 1")
-      (Page "P12_Compressor_Control")))
+      (Tab 0)))
   (MPSSessionName "Madison")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library"))

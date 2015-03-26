@@ -2,38 +2,38 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:08:46 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:10:46 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MCP4131_SOIC8_MCP4131
+ JUMPER_0603RF_WV_12D_RESET-EN
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:08:46 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:10:46 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U20                 MCP4131_SOIC8_MCP4131                 MCP4131_MCP413X_MCP4131
+ J8                  JUMPER_0603RF_WV_12D_RESET-EN                 JUMPER_0402RF_WV_12D_RESET-EN
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:08:46 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:10:46 2015  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U20.4                          PRIM_FILE      .\pstchip.dat
+ J8.2                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |   total ECO changes reported  3                                              |
 |------------------------------------------------------------------------------|

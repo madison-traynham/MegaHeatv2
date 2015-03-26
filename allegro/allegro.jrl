@@ -1,20 +1,17 @@
-\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:03)     Journal start - Sun Mar 22 01:06:53 2015
-\t (00:00:03)         Host=MADISON-PC User=Madison Pid=8180 CPUs=4
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Database opened: C:/USERS/MADISON/DESKTOP/MEGAHEATV2/allegro/MEGAHEATV2.brd
-\i (00:00:05) trapsize 10566
-\i (00:00:05) trapsize 10372
-\i (00:00:05) trapsize 10599
-\i (00:00:06) trapsize 10801
-\i (00:00:06) trapsize 13682
-\i (00:00:06) placementedit 
-\i (00:00:09) zoom out 1 
-\i (00:00:09) setwindow pcb
-\i (00:00:09) zoom out 38363.18 13736.32
-\i (00:00:09) trapsize 13682
-\i (00:00:11) exit 
-\e (00:00:11) Do you want to save the changes you made to MEGAHEATV2.brd?
-\i (00:00:12) fillin no 
-\t (00:00:12)     Journal end - Sun Mar 22 01:07:02 2015
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Mon Mar 23 22:49:19 2015
+\t (00:00:02)         Host=MADISON-PC User=Madison Pid=8844 CPUs=4
+\t (00:00:02) 
+\t (00:00:04) Starting new design...
+\i (00:00:04) trapsize 653
+\i (00:00:04) trapsize 641
+\i (00:00:04) trapsize 655
+\i (00:00:04) trapsize 667
+\i (00:00:04) trapsize 1057
+\i (00:00:05) etchedit 
+\i (00:00:14) open 
+\i (00:00:21) fillin "C:\Users\Madison\Desktop\MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c\megaHeatv2.brd"
+\i (00:00:21) cd "C:\Users\Madison\Desktop\MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c"
+\t (00:00:21) Opening existing design...
+\i (00:00:21) trapsize 2643
+\t (00:00:21)     Journal end - Mon Mar 23 22:49:38 2015

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Mar-23-2015 at 23:00:45}
+{ Using PSTWRITER 16.6.0 d001Mar-24-2015 at 22:10:37}
 primitive 'CR1220HOLDER_CR1220_CR1220HOLDE';
   pin
     'PW1':
@@ -486,7 +486,7 @@ primitive 'HEADER 2X2/SM_2X2CON_HEADER 2X2';
     VALUE='HEADER 2x2/SM';
   end_body;
 end_primitive;
-primitive 'JUMPER_1210RF_WV_12D_RESET-EN';
+primitive 'JUMPER_0603RF_WV_12D_RESET-EN';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -497,7 +497,7 @@ primitive 'JUMPER_1210RF_WV_12D_RESET-EN';
   end_pin;
   body
     PART_NAME='JUMPER';
-    JEDEC_TYPE='1210rf_wv_12d';
+    JEDEC_TYPE='0603rf_wv_12d';
     VALUE='Reset-EN';
   end_body;
 end_primitive;

@@ -2,38 +2,58 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:07:20 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:09:58 2015  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N70322       pins ADDED TO this new net
+                                 J8.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET_70272  pins MOVED FROM this net (to net name listed on right)
+                                 C34.1           -955.00  547.75
+                                                                         N70322
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET_70311  pins ADDED TO this new net
+                                 J8.2                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:09:58 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to board drawing                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MCP4131_MCP413X_MCP4131
+ JUMPER_0402RF_WV_12D_RESET-EN
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:07:20 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:09:58 2015  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in board drawing          |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U20                 MCP4131_MCP413X_MCP4131                 MCP4131_MCP4131_MCP4131
+ J8                  JUMPER_0402RF_WV_12D_RESET-EN -1173.2  317.25 JUMPER_1210RF_WV_12D_RESET-EN
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:/Users/Madison/Desktop/MegaHeatv2/megaHeatv2.brd                          |
-|                                                    Sun Mar 22 01:07:20 2015  |
+|  C:.../MegaHeatv2-fffd37a566992c5bfdde254fe52bc62ac9290f2c/megaHeatv2.brd    |
+|                                                    Tue Mar 24 22:09:58 2015  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to board drawing                                       |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U20.4                          PRIM_FILE      .\pstchip.dat
+ J8.2                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  3                                              |
+|   total ECO changes reported  6                                              |
 |------------------------------------------------------------------------------|
